@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-import { ExampleComponent } from 'react-licenseplate'
-import 'react-licenseplate/dist/index.css'
+// Libraries
+import ReactFormatLicenseplate from 'react-format-licenseplate'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const [licenseplate, setLicenseplate] = useState('')
+
+  return (
+    <ReactFormatLicenseplate 
+      value={licenseplate}
+      onChange={newValue => {
+        setLicenseplate(newValue)
+      }}
+      selectOnClick={true}
+    />
+  )
 }
 
 export default App

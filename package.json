@@ -1,10 +1,10 @@
 {
-  "name": "react-licenseplate",
-  "version": "1.0.0",
+  "name": "react-format-licenseplate",
+  "version": "1.0.1",
   "description": "Render input to format a licenseplate",
   "author": "lennartkoelewijn",
   "license": "MIT",
-  "repository": "lennartkoelewijn/react-licenseplate",
+  "repository": "lennartkoelewijn/react-format-licenseplate",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",

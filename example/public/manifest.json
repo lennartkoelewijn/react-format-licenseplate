@@ -1,6 +1,6 @@
 {
-  "short_name": "react-licenseplate",
-  "name": "react-licenseplate",
+  "short_name": "react-format-licenseplate",
+  "name": "react-format-licenseplate",
   "icons": [
     {
       "src": "favicon.ico",
